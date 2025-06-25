@@ -66,6 +66,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   min-width: 150px;
   z-index: 100;
+  
 }
 
 .dropdownMenu ul {
@@ -78,10 +79,13 @@
   padding: 10px 15px;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  
+  
 }
 
 .dropdownMenu ul li:hover {
   background-color: #f3f3f3;
+  
 }
 
 .dropdownContainer:hover .dropdownMenu {
@@ -92,4 +96,8 @@
 {
     height: 25px;
     
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }

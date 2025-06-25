@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './header.module.css'
 import searchicon from '../../assets/search1.png'
 import cart from '../../assets/cart.png'
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -13,17 +15,17 @@ const Header = () => {
             <span className={styles.log}><img src={cart} alt="cart" /></span>
         </div>
         <nav className={styles.headright}>
-            <span className={styles.tag}>New</span>
+            <Link to="/" className={styles.tag}>New</Link>
 
             
             <div className={styles.dropdownContainer}>
                 <span className={styles.tag}>Collection</span>
                 <div className={styles.dropdownMenu}>
                 <ul>
-                    <li>Jess Designs</li>
-                    <li>Verandas Collection</li>
-                    <li>Miller Lounge Series</li>
-                    <li>Advi Series</li>
+                    <li><Link to="/">Jess Designs</Link></li>
+                    <li><Link to="/">Verandas Collection</Link></li>
+                    <li><Link to="/">Miller Lounge Series</Link></li>
+                    <li><Link to="/">Advi Series</Link></li>
                 </ul>
                 </div>
             </div>
