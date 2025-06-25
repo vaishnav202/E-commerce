@@ -1,4 +1,4 @@
-import Header from "./components/header/header"
+import Header from "./components/header/HeaderComp"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/footer/Footer";
