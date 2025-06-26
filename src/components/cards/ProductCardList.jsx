@@ -7,6 +7,11 @@ import products from '../product/productsData';
 
 const ProductCardList = () => {
   return (
+    <>
+    <div className={styles.headingContainer}>
+      <h2 className={styles.sectionHeading}>Explore Our Collection</h2>
+      <p className={styles.subheading}>Discover handcrafted wooden pieces made to elevate every space.</p>
+    </div>
     <div className={styles.gridContainer}>
       {products.map(product => (
         <SingleProductCard
@@ -19,6 +24,7 @@ const ProductCardList = () => {
         />
       ))}
     </div>
+    </>
   );
 };
 

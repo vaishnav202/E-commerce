@@ -4,6 +4,8 @@ import sofa from '../../assets/sofa.jpeg'
 import Bed from '../../assets/wooden-bed.jpg'
 import chair from '../../assets/chair.jpg'
 import styles from "./productSlider.module.css"; // You can style with CSS Modules
+import { Link } from "react-router-dom";
+
 
 const products = [
   {
@@ -51,7 +53,9 @@ const ProductSlider = () => {
               <h2>{product.name}</h2>
               <p className={styles.price}>{product.price}</p>
               {product.discount && <span className={styles.discount}>{product.discount}</span>}
-              <button className={styles.button}>Shop Now</button>
+              <Link to={`/product/${product.id}`}>
+                <button className={styles.button}>Shop Now</button>
+              </Link>
             </div>
           </div>
         ))}
