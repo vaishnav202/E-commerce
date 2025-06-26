@@ -111,11 +111,10 @@ const Header = () => {
 
       {/* Navigation */}
       <nav className={styles.headright}>
-        <Link to="/" className={styles.tag}>New</Link>
+        <Link to="/" className={styles.tag}>Home</Link>
 
         {[
-          { title: 'Collection', items: ['Jess Designs', 'Verandas Collection', 'Miller Lounge Series', 'Advi Series'] },
-          { title: 'Furniture', items: ['Entry Way', 'Living', 'Dining', 'Bedroom'] },
+          { title: 'Furniture', items: ['Living', 'Dining', 'Bedroom'] },
           { title: 'Outdoor', items: ['Outdoor lounge', 'Outdoor dining', 'Outdoor decor'] },
           { title: 'Decor', items: ['Mirrors', 'Storages', 'Home Fragrance', 'Art'] }
         ].map((menu, i) => (
@@ -124,7 +123,7 @@ const Header = () => {
             <div className={styles.dropdownMenu}>
               <ul>
                 {menu.items.map((item, j) => (
-                  <li key={j}><Link to="/">{item}</Link></li>
+                  <li key={j}><Link to={`/subcategory/${encodeURIComponent(item)}`}>{item}</Link></li>
                 ))}
               </ul>
             </div>

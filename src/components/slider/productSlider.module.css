@@ -3,50 +3,103 @@
   max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
-  
 }
 
-.slide {
-  display: flex;
+.card {
+  display: flex !important;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
+  background-color: #fffef5;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding-bottom: 30px;
+  width: 100%;
+  max-height: 100vh;
 }
 
 .image {
-  max-width: 400px;
+  width: 100%;
+  max-height: 60vh;           /* Limits height to screen */
   height: auto;
-  border-radius: 10px;
+  object-fit: contain;        /* Show full image without cropping */
+  border-bottom: 1px solid #eee;
+  border-radius: 12px 12px 0 0;
 }
 
 .details {
-  text-align: left;
-  
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.name {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.priceSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .price {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
+  color: #222;
 }
 
 .discount {
-  display: inline-block;
-  margin-left: 10px;
-  color: red;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e63946;
 }
 
 .button {
-  margin-top: 10px;
   background-color: #ff8c00;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 24px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
   background-color: #e67700;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sliderContainer {
+    padding: 10px;
+  }
+
+  .card {
+    max-height: none;
+  }
+
+  .image {
+    height: auto;
+    max-height: 50vh;
+  }
+
+  .name {
+    font-size: 1.4rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+  }
+
+  .button {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
 }

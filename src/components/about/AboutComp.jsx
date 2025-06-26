@@ -1,9 +1,13 @@
 import React from 'react'
 import styles from './about.module.css'
+import useScrollReveal from '../scroll/useScrollReveal';
 
 const AboutComp = () => {
+
+  const [ref, visible] = useScrollReveal();
+
   return (
-    <section className={styles.choose}>
+    <section className={`${styles.choose} ${visible ? styles.visible : styles.hidden}`} ref={ref}>
   <div className={styles.container}>
     <h2>Why Choose Our Wooden Furniture</h2>
     <p className={styles.subtext}>

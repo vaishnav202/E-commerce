@@ -63,6 +63,101 @@
   max-width: 500px;
   padding-top: 1rem;
 }
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.rating {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.priceBlock {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  color: #222;
+}
+
+.discount {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.stock {
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.quantityBlock {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.qtySelector {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.qtySelector button {
+  width: 32px;
+  height: 32px;
+  font-size: 1.2rem;
+  background: #f7f7f7;
+  border: none;
+  cursor: pointer;
+}
+
+.qtySelector span {
+  padding: 0 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.addBtn,
+.buyBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addBtn {
+  background-color: #444;
+  color: white;
+}
+
+.buyBtn {
+  background-color: orange;
+  color: white;
+}
+
+.addBtn:hover {
+  background-color: #333;
+}
+
+.buyBtn:hover {
+  background-color: #e69500;
+}
+
 
 .discount {
   color: red;
