@@ -1,0 +1,678 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Sofa",
+    "image": "https://torqueindia.co/cdn/shop/products/steffy-2-seater-fabric-sofa-furniture-for-living-room-bedroom-office-900772.jpg?v=1714213131&width=1946",
+    "price": 499,
+    "discount": "20% OFF",
+    "rating": 4.5,
+    "quantity": 10,
+    "category": "Furniture",
+    "subcategory": "Living"
+  },
+  {
+    "id": 2,
+    "name": "Premium Lounge Sofa",
+    "image": "https://torqueindia.co/cdn/shop/products/zeus-3-seater-fabric-premium-sofa-for-living-room-green-317292.jpg?v=1688745095",
+    "price": 899,
+    "discount": "15% OFF",
+    "rating": 4.6,
+    "quantity": 8,
+    "category": "Furniture",
+    "subcategory": "Living"
+  },
+  {
+    "id": 3,
+    "name": "Classic Wooden Sofa",
+    "image": "https://healsway.us/cdn/shop/products/Upscales.ai_1697460006573.jpg?v=1697471564",
+    "price": 699,
+    "discount": null,
+    "rating": 4.4,
+    "quantity": 12,
+    "category": "Furniture",
+    "subcategory": "Living"
+  },
+  {
+    "id": 4,
+    "name": "Fabric Sectional Sofa",
+    "image": "https://torqueindia.co/cdn/shop/products/christopher-5-seater-l-shape-premium-fabric-sofa-with-ottoman-688842.jpg?v=1686747398",
+    "price": 999,
+    "discount": "10% OFF",
+    "rating": 4.7,
+    "quantity": 6,
+    "category": "Furniture",
+    "subcategory": "Living"
+  },
+  {
+    "id": 5,
+    "name": "Velvet Arm Sofa",
+    "image": "https://woodenbazar.com/cdn/shop/files/ottavia-76-3-velvet-square-arm-sofa-green-259.webp?v=1729305463",
+    "price": 749,
+    "discount": "25% OFF",
+    "rating": 4.3,
+    "quantity": 9,
+    "category": "Furniture",
+    "subcategory": "Living"
+  },
+  {
+    "id": 6,
+    "name": "Contemporary Loveseat",
+    "image": "https://m.media-amazon.com/images/I/51Psv-WVY6L.jpg",
+    "price": 549,
+    "discount": null,
+    "rating": 4.2,
+    "quantity": 7,
+    "category": "Furniture",
+    "subcategory": "Living"
+  },
+
+  {
+    "id": 7,
+    "name": "Wooden Bed",
+    "image": "https://ganpatiarts.com/cdn/shop/products/N1.jpg?crop=center&height=1200&v=1710313410&width=1200",
+    "price": 799,
+    "discount": null,
+    "rating": 4.8,
+    "quantity": 5,
+    "category": "Furniture",
+    "subcategory": "Bedroom"
+  },
+  {
+    "id": 8,
+    "name": "King Size Bed",
+    "image": "https://www.squaro.in/cdn/shop/files/IMG_20240229_210402.png?v=1709222452",
+    "price": 999,
+    "discount": "10% OFF",
+    "rating": 4.7,
+    "quantity": 4,
+    "category": "Furniture",
+    "subcategory": "Bedroom"
+  },
+  {
+    "id": 9,
+    "name": "Queen Storage Bed",
+    "image": "https://www.royaloakindia.com/media/catalog/product/b/s/bs-120b_8s_9l_11_copy.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+    "price": 899,
+    "discount": "5% OFF",
+    "rating": 4.5,
+    "quantity": 6,
+    "category": "Furniture",
+    "subcategory": "Bedroom"
+  },
+  {
+    "id": 10,
+    "name": "Rustic Pine Bed Frame",
+    "image": "https://i.etsystatic.com/26260000/r/il/0355db/2696441842/il_570xN.2696441842_cor7.jpg",
+    "price": 850,
+    "discount": null,
+    "rating": 4.4,
+    "quantity": 3,
+    "category": "Furniture",
+    "subcategory": "Bedroom"
+  },
+  {
+    "id": 11,
+    "name": "Upholstered Platform Bed",
+    "image": "https://assets.wfcdn.com/im/27167058/compr-r85/2556/255626820/nelsie-upholstered-platform-bed-with-velvet-tufted-headboard.jpg",
+    "price": 975,
+    "discount": "12% OFF",
+    "rating": 4.6,
+    "quantity": 5,
+    "category": "Furniture",
+    "subcategory": "Bedroom"
+  },
+  {
+    "id": 12,
+    "name": "Simple Twin Bed",
+    "image": "https://images-cdn.ubuy.co.in/655672d662fabd08a44df2a8-dasyfly-twin-bed-frame-with-trundle.jpg",
+    "price": 499,
+    "discount": "8% OFF",
+    "rating": 4.1,
+    "quantity": 10,
+    "category": "Furniture",
+    "subcategory": "Bedroom"
+  },
+
+  {
+    "id": 13,
+    "name": "Stylish Chair",
+    "image": "https://5.imimg.com/data5/ANDROID/Default/2022/12/NK/ZI/FE/73519671/product-jpeg.jpg",
+    "price": 129,
+    "discount": "10% OFF",
+    "rating": 4.2,
+    "quantity": 15,
+    "category": "Furniture",
+    "subcategory": "Dining"
+  },
+  {
+    "id": 14,
+    "name": "Classic Dining Chair",
+    "image": "https://i.pinimg.com/564x/c2/da/d0/c2dad0ad289bf6f7405d9d14e549093c.jpg",
+    "price": 149,
+    "discount": null,
+    "rating": 4.3,
+    "quantity": 18,
+    "category": "Furniture",
+    "subcategory": "Dining"
+  },
+  {
+    "id": 15,
+    "name": "Wooden Dining Chair Set",
+    "image": "https://www.hometown.in/cdn/shop/files/1_e98fde29-8417-4f68-858c-3a06e969feeb.jpg?v=1747203460",
+    "price": 299,
+    "discount": "5% OFF",
+    "rating": 4.5,
+    "quantity": 10,
+    "category": "Furniture",
+    "subcategory": "Dining"
+  },
+  {
+    "id": 16,
+    "name": "Modern Dining Armchair",
+    "image": "https://sklarfurnishings.com/wp-content/uploads/2023/03/lea-dining-armchair-featured.jpg",
+    "price": 199,
+    "discount": "12% OFF",
+    "rating": 4.6,
+    "quantity": 7,
+    "category": "Furniture",
+    "subcategory": "Dining"
+  },
+  {
+    "id": 17,
+    "name": "Elegant Leather Chair",
+    "image": "https://thetimberguy.com/cdn/shop/products/Wooden-Vintage-High-back-leather-lounge-Arm-chair-sofa-furniture.jpg?v=1744050080",
+    "price": 259,
+    "discount": null,
+    "rating": 4.4,
+    "quantity": 9,
+    "category": "Furniture",
+    "subcategory": "Dining"
+  },
+  {
+    "id": 18,
+    "name": "Upholstered Dining Chair",
+    "image": "https://m.media-amazon.com/images/I/81DpUBmGV+L.jpg",
+    "price": 179,
+    "discount": "18% OFF",
+    "rating": 4.2,
+    "quantity": 8,
+    "category": "Furniture",
+    "subcategory": "Dining"
+  },
+
+  
+  {
+    "id": 19,
+    "name": "Lounge Set A",
+    "image": "",
+    "price": 599,
+    "discount": "15% OFF",
+    "rating": 4.4,
+    "quantity": 5,
+    "category": "Outdoor",
+    "subcategory": "Outdoor lounge"
+  },
+  {
+    "id": 20,
+    "name": "Rattan Lounge Set",
+    "image": "",
+    "price": 749,
+    "discount": null,
+    "rating": 4.5,
+    "quantity": 4,
+    "category": "Outdoor",
+    "subcategory": "Outdoor lounge"
+  },
+  {
+    "id": 21,
+    "name": "Wooden Patio Sofa",
+    "image": "",
+    "price": 849,
+    "discount": "10% OFF",
+    "rating": 4.6,
+    "quantity": 3,
+    "category": "Outdoor",
+    "subcategory": "Outdoor lounge"
+  },
+  {
+    "id": 22,
+    "name": "Modular Outdoor Sofa",
+    "image": "",
+    "price": 899,
+    "discount": null,
+    "rating": 4.3,
+    "quantity": 6,
+    "category": "Outdoor",
+    "subcategory": "Outdoor lounge"
+  },
+  {
+    "id": 23,
+    "name": "2-Seater Garden Lounge",
+    "image": "",
+    "price": 699,
+    "discount": "5% OFF",
+    "rating": 4.2,
+    "quantity": 8,
+    "category": "Outdoor",
+    "subcategory": "Outdoor lounge"
+  },
+  {
+    "id": 24,
+    "name": "Outdoor Bean Chair",
+    "image": "",
+    "price": 379,
+    "discount": null,
+    "rating": 4.1,
+    "quantity": 9,
+    "category": "Outdoor",
+    "subcategory": "Outdoor lounge"
+  },
+
+  
+  {
+    "id": 25,
+    "name": "Outdoor Dining Set",
+    "image": "",
+    "price": 999,
+    "discount": "20% OFF",
+    "rating": 4.5,
+    "quantity": 4,
+    "category": "Outdoor",
+    "subcategory": "Outdoor dining"
+  },
+  {
+    "id": 26,
+    "name": "Patio Dining Table",
+    "image": "",
+    "price": 799,
+    "discount": null,
+    "rating": 4.3,
+    "quantity": 5,
+    "category": "Outdoor",
+    "subcategory": "Outdoor dining"
+  },
+  {
+    "id": 27,
+    "name": "6-Seater Outdoor Table",
+    "image": "",
+    "price": 1199,
+    "discount": "10% OFF",
+    "rating": 4.7,
+    "quantity": 3,
+    "category": "Outdoor",
+    "subcategory": "Outdoor dining"
+  },
+  {
+    "id": 28,
+    "name": "Foldable Garden Table",
+    "image": "",
+    "price": 499,
+    "discount": null,
+    "rating": 4.2,
+    "quantity": 7,
+    "category": "Outdoor",
+    "subcategory": "Outdoor dining"
+  },
+  {
+    "id": 29,
+    "name": "Teak Outdoor Set",
+    "image": "",
+    "price": 899,
+    "discount": "5% OFF",
+    "rating": 4.6,
+    "quantity": 4,
+    "category": "Outdoor",
+    "subcategory": "Outdoor dining"
+  },
+  {
+    "id": 30,
+    "name": "Outdoor Bistro Table",
+    "image": "",
+    "price": 429,
+    "discount": "8% OFF",
+    "rating": 4.4,
+    "quantity": 6,
+    "category": "Outdoor",
+    "subcategory": "Outdoor dining"
+  },
+
+
+  {
+    "id": 31,
+    "name": "Garden Lantern Set",
+    "image": "",
+    "price": 149,
+    "discount": "10% OFF",
+    "rating": 4.5,
+    "quantity": 10,
+    "category": "Outdoor",
+    "subcategory": "Outdoor decor"
+  },
+  {
+    "id": 32,
+    "name": "Outdoor Planters",
+    "image": "",
+    "price": 99,
+    "discount": null,
+    "rating": 4.4,
+    "quantity": 12,
+    "category": "Outdoor",
+    "subcategory": "Outdoor decor"
+  },
+  {
+    "id": 33,
+    "name": "Wall Hanging Lights",
+    "image": "",
+    "price": 129,
+    "discount": "5% OFF",
+    "rating": 4.2,
+    "quantity": 9,
+    "category": "Outdoor",
+    "subcategory": "Outdoor decor"
+  },
+  {
+    "id": 34,
+    "name": "Garden Fountain",
+    "image": "",
+    "price": 349,
+    "discount": "15% OFF",
+    "rating": 4.6,
+    "quantity": 3,
+    "category": "Outdoor",
+    "subcategory": "Outdoor decor"
+  },
+  {
+    "id": 35,
+    "name": "Wicker Basket Decor",
+    "image": "",
+    "price": 89,
+    "discount": null,
+    "rating": 4.1,
+    "quantity": 14,
+    "category": "Outdoor",
+    "subcategory": "Outdoor decor"
+  },
+  {
+    "id": 36,
+    "name": "Solar Garden Lights",
+    "image": "",
+    "price": 159,
+    "discount": "12% OFF",
+    "rating": 4.3,
+    "quantity": 7,
+    "category": "Outdoor",
+    "subcategory": "Outdoor decor"
+  },
+
+  
+  {
+    "id": 37,
+    "name": "Round Wall Mirror",
+    "image": "",
+    "price": 299,
+    "discount": "10% OFF",
+    "rating": 4.4,
+    "quantity": 8,
+    "category": "Decor",
+    "subcategory": "Mirrors"
+  },
+  {
+    "id": 38,
+    "name": "Vintage Frame Mirror",
+    "image": "",
+    "price": 349,
+    "discount": "5% OFF",
+    "rating": 4.6,
+    "quantity": 5,
+    "category": "Decor",
+    "subcategory": "Mirrors"
+  },
+  {
+    "id": 39,
+    "name": "Modern Full-Length Mirror",
+    "image": "",
+    "price": 499,
+    "discount": null,
+    "rating": 4.3,
+    "quantity": 6,
+    "category": "Decor",
+    "subcategory": "Mirrors"
+  },
+  {
+    "id": 40,
+    "name": "Sunburst Wall Mirror",
+    "image": "",
+    "price": 399,
+    "discount": "8% OFF",
+    "rating": 4.2,
+    "quantity": 7,
+    "category": "Decor",
+    "subcategory": "Mirrors"
+  },
+  {
+    "id": 41,
+    "name": "Oval Decorative Mirror",
+    "image": "",
+    "price": 279,
+    "discount": null,
+    "rating": 4.1,
+    "quantity": 10,
+    "category": "Decor",
+    "subcategory": "Mirrors"
+  },
+  {
+    "id": 42,
+    "name": "Rustic Frame Mirror",
+    "image": "",
+    "price": 329,
+    "discount": "7% OFF",
+    "rating": 4.5,
+    "quantity": 4,
+    "category": "Decor",
+    "subcategory": "Mirrors"
+  },
+
+  {
+    "id": 43,
+    "name": "Wooden Shoe Rack",
+    "image": "",
+    "price": 259,
+    "discount": null,
+    "rating": 4.3,
+    "quantity": 5,
+    "category": "Decor",
+    "subcategory": "Storages"
+  },
+  {
+    "id": 44,
+    "name": "Multipurpose Cabinet",
+    "image": "",
+    "price": 349,
+    "discount": "10% OFF",
+    "rating": 4.6,
+    "quantity": 3,
+    "category": "Decor",
+    "subcategory": "Storages"
+  },
+  {
+    "id": 45,
+    "name": "Floating Wall Shelf",
+    "image": "",
+    "price": 199,
+    "discount": "15% OFF",
+    "rating": 4.5,
+    "quantity": 9,
+    "category": "Decor",
+    "subcategory": "Storages"
+  },
+  {
+    "id": 46,
+    "name": "Metal Storage Basket",
+    "image": "",
+    "price": 139,
+    "discount": null,
+    "rating": 4.2,
+    "quantity": 6,
+    "category": "Decor",
+    "subcategory": "Storages"
+  },
+  {
+    "id": 47,
+    "name": "Cube Organizer",
+    "image": "",
+    "price": 229,
+    "discount": "12% OFF",
+    "rating": 4.4,
+    "quantity": 8,
+    "category": "Decor",
+    "subcategory": "Storages"
+  },
+  {
+    "id": 48,
+    "name": "Storage Ottoman",
+    "image": "",
+    "price": 299,
+    "discount": "5% OFF",
+    "rating": 4.3,
+    "quantity": 7,
+    "category": "Decor",
+    "subcategory": "Storages"
+  },
+
+  
+  {
+    "id": 49,
+    "name": "Scented Candle Set",
+    "image": "",
+    "price": 99,
+    "discount": "10% OFF",
+    "rating": 4.5,
+    "quantity": 15,
+    "category": "Decor",
+    "subcategory": "Home Fragrance"
+  },
+  {
+    "id": 50,
+    "name": "Reed Diffuser",
+    "image": "",
+    "price": 129,
+    "discount": null,
+    "rating": 4.4,
+    "quantity": 10,
+    "category": "Decor",
+    "subcategory": "Home Fragrance"
+  },
+  {
+    "id": 51,
+    "name": "Aroma Oil Burner",
+    "image": "",
+    "price": 89,
+    "discount": "5% OFF",
+    "rating": 4.2,
+    "quantity": 11,
+    "category": "Decor",
+    "subcategory": "Home Fragrance"
+  },
+  {
+    "id": 52,
+    "name": "Electric Diffuser",
+    "image": "",
+    "price": 199,
+    "discount": "15% OFF",
+    "rating": 4.6,
+    "quantity": 4,
+    "category": "Decor",
+    "subcategory": "Home Fragrance"
+  },
+  {
+    "id": 53,
+    "name": "Fragrance Beads Jar",
+    "image": "",
+    "price": 79,
+    "discount": null,
+    "rating": 4.1,
+    "quantity": 9,
+    "category": "Decor",
+    "subcategory": "Home Fragrance"
+  },
+  {
+    "id": 54,
+    "name": "Room Spray Duo",
+    "image": "",
+    "price": 109,
+    "discount": "8% OFF",
+    "rating": 4.3,
+    "quantity": 12,
+    "category": "Decor",
+    "subcategory": "Home Fragrance"
+  },
+
+  
+  {
+    "id": 55,
+    "name": "Canvas Wall Art Set",
+    "image": "",
+    "price": 499,
+    "discount": "10% OFF",
+    "rating": 4.6,
+    "quantity": 7,
+    "category": "Decor",
+    "subcategory": "Art"
+  },
+  {
+    "id": 56,
+    "name": "Framed Abstract Art",
+    "image": "",
+    "price": 399,
+    "discount": null,
+    "rating": 4.4,
+    "quantity": 6,
+    "category": "Decor",
+    "subcategory": "Art"
+  },
+  {
+    "id": 57,
+    "name": "Modern Line Art Print",
+    "image": "",
+    "price": 249,
+    "discount": "5% OFF",
+    "rating": 4.3,
+    "quantity": 8,
+    "category": "Decor",
+    "subcategory": "Art"
+  },
+  {
+    "id": 58,
+    "name": "Botanical Wall Frame",
+    "image": "",
+    "price": 299,
+    "discount": "12% OFF",
+    "rating": 4.5,
+    "quantity": 5,
+    "category": "Decor",
+    "subcategory": "Art"
+  },
+  {
+    "id": 59,
+    "name": "Minimalist Painting",
+    "image": "",
+    "price": 379,
+    "discount": null,
+    "rating": 4.2,
+    "quantity": 4,
+    "category": "Decor",
+    "subcategory": "Art"
+  },
+  {
+    "id": 60,
+    "name": "Tribal Canvas Artwork",
+    "image": "",
+    "price": 349,
+    "discount": "8% OFF",
+    "rating": 4.4,
+    "quantity": 6,
+    "category": "Decor",
+    "subcategory": "Art"
+  }
+]
+
