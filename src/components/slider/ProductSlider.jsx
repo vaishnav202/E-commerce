@@ -1,34 +1,33 @@
 import React from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-import sofa from "../../assets/sofa.jpeg";
-import Bed from "../../assets/wooden-bed.jpg";
-import chair from "../../assets/chair.jpg";
 import styles from "./productSlider.module.css";
+import products from '../../data/furnitureData.json';
 
-const products = [
-  {
-    id: 1,
-    name: "Modern Sofa",
-    price: "$499",
-    discount: "20% OFF",
-    image: sofa,
-  },
-  {
-    id: 2,
-    name: "Wooden Bed",
-    price: "$799",
-    discount: null,
-    image: Bed,
-  },
-  {
-    id: 3,
-    name: "Stylish Chair",
-    price: "$129",
-    discount: "10% OFF",
-    image: chair,
-  },
-];
+
+
+
+  // ✅ Step 1: Group by category and pick 2
+  const getTopProductsByCategory = (products) => {
+    const categoryMap = {};
+
+    products.forEach(product => {
+      const { category } = product;
+      if (!categoryMap[category]) {
+        categoryMap[category] = [];
+      }
+
+      // Only allow up to 2 items per category
+      if (categoryMap[category].length < 2) {
+        categoryMap[category].push(product);
+      }
+    });
+
+    // Flatten the result
+    return Object.values(categoryMap).flat();
+  };
+
+  const selectedProducts = getTopProductsByCategory(products);
 
 const ProductSlider = () => {
   const settings = {
@@ -45,7 +44,7 @@ const ProductSlider = () => {
   return (
     <div className={styles.sliderContainer}>
       <Slider {...settings}>
-        {products.map((product) => (
+        {selectedProducts.map((product) => (
           <div key={product.id} className={styles.card}>
             <img
               src={product.image}
@@ -55,7 +54,7 @@ const ProductSlider = () => {
             <div className={styles.details}>
               <h2 className={styles.name}>{product.name}</h2>
               <div className={styles.priceSection}>
-                <span className={styles.price}>{product.price}</span>
+                <span className={styles.price}>₹{product.price}</span>
                 {product.discount && (
                   <span className={styles.discount}>{product.discount}</span>
                 )}

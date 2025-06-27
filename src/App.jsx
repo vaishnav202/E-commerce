@@ -6,7 +6,7 @@ import ProductDetail from "./components/product/ProductDetail";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from "./Page/HomePage";
 import SubcategoryPage from "./Page/SubcategoryPage";
-
+import './App.css';
 
 
 
@@ -14,9 +14,10 @@ function App() {
   
 
   return (
-    <>
+    <div className="appWrapper">
     <Router>
       <Header/>
+      <main>
         
         <Routes>
           <Route path='/' element={<HomePage/>}></Route>
@@ -24,13 +25,13 @@ function App() {
           <Route path='/subcategory/:subcategory' element={<SubcategoryPage/>} /> 
 
         </Routes>
-      
+      </main>
       <Footer/>
 
     </Router>
       
       
-    </>
+    </div>
   )
 }
 

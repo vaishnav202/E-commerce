@@ -20,10 +20,11 @@
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 24px;
+   grid-template-columns: repeat(3, 1fr); /* Exactly 3 columns */
+  gap: 32px;
   padding: 40px;
   animation: fadeInDown 0.5s ease-out;
+  
 }
 @keyframes fadeInDown {
   from {
@@ -43,6 +44,7 @@
   background-color: white;
   text-align: center;
   transition: box-shadow 0.3s ease;
+  
 }
 
 .card:hover {

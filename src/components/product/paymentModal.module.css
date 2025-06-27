@@ -1,0 +1,103 @@
+/* Modal Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal Box */
+.modal {
+  background: #fff;
+  padding: 24px 30px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header with Image and Title */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Labels & Inputs */
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+/* Card Info Row */
+.cardInfo {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.cardInfo input {
+  flex: 1;
+}
+
+/* Buttons */
+.payBtn {
+  width: 100%;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.payBtn:hover {
+  background-color: #005ed9;
+}
+
+.closeBtn {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #777;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
