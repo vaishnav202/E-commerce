@@ -4,6 +4,7 @@ import products from '../../data/furnitureData.json';
 import styles from './productDetail.module.css';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import PaymentModal from './PaymentModal';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -18,6 +19,9 @@ const ProductDetail = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
   const [quantity, setQuantity] = useState(1);
+  const [showPayment, setShowPayment] = useState(false);
+
+  
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -33,6 +37,10 @@ const ProductDetail = () => {
     }
   }, [product]);
 
+  const handleShopNow = () => {
+    setShowPayment(true);
+  };
+  
   const handleMouseMove = (e) => {
     if (!imgRef.current) return;
     const bounds = imgRef.current.getBoundingClientRect();
@@ -123,7 +131,17 @@ const ProductDetail = () => {
 
         <div className={styles.buttonGroup}>
           <button className={styles.addBtn}>Add to Cart</button>
-          <button className={styles.buyBtn}>Buy Now</button>
+          <button onClick={handleShopNow} className={styles.buyBtn}>Buy Now</button>
+          <PaymentModal
+            show={showPayment}
+            onClose={() => setShowPayment(false)}
+            productTitle={product.name}
+            productImage={product.image}
+            quantity={quantity}
+            price={product.price}
+          />
+
+
         </div>
       </div>
 

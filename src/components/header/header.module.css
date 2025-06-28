@@ -61,7 +61,11 @@
 }
 .log:hover
 {
-    border-bottom: 2px solid orange;
+    color: orange;
+}
+.loginBtn
+{
+  all: unset;
 }
 .tag
 {

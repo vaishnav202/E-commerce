@@ -3,6 +3,7 @@ import styles from './header.module.css';
 import searchicon from '../../assets/search1.png';
 import cart from '../../assets/cart.png';
 import { Link } from 'react-router-dom';
+import LoginModal from '../auth/LoginModal';
 
 const Header = () => {
   const [query, setQuery] = useState('');
@@ -12,6 +13,7 @@ const Header = () => {
     { id: 1, name: 'Sofa', price: 499, qty: 1 },
     { id: 2, name: 'Chair', price: 129, qty: 2 },
   ]);
+  const [showLogin, setShowLogin] = useState(false);
 
   const productSuggestions = [
     'Sofa',
@@ -50,7 +52,10 @@ const Header = () => {
             <Link to="/">Furni<span>Co</span></Link>
         </div>
 
-        <span className={styles.log}>Login</span>
+        <span className={styles.log}>
+          <button className={styles.loginBtn} onClick={() => setShowLogin(true)}>Login</button>
+          <LoginModal show={showLogin} onClose={() => setShowLogin(false)} />
+          </span>
 
         {/* Search Bar */}
         <div className={styles.searchContainer}>

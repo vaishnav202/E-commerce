@@ -204,7 +204,7 @@
   {
     "id": 19,
     "name": "Lounge Set A",
-    "image": "",
+    "image": "https://devoko.in/wp-content/uploads/2025/04/D5-187.jpg",
     "price": 599,
     "discount": "15% OFF",
     "rating": 4.4,
@@ -215,7 +215,7 @@
   {
     "id": 20,
     "name": "Rattan Lounge Set",
-    "image": "",
+    "image": "https://mediahub.debenhams.com/m9331615672919_dark%20grey_xl_1.jpeg",
     "price": 749,
     "discount": null,
     "rating": 4.5,
@@ -226,7 +226,7 @@
   {
     "id": 21,
     "name": "Wooden Patio Sofa",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/918H1iNQCkL.jpg",
     "price": 849,
     "discount": "10% OFF",
     "rating": 4.6,
@@ -237,7 +237,7 @@
   {
     "id": 22,
     "name": "Modular Outdoor Sofa",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/81xKAtygQjL._UF894,1000_QL80_.jpg",
     "price": 899,
     "discount": null,
     "rating": 4.3,
@@ -248,7 +248,7 @@
   {
     "id": 23,
     "name": "2-Seater Garden Lounge",
-    "image": "",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKVgiLXutp0FnioJcmdxxVucOu-MSFdkOAKg&s",
     "price": 699,
     "discount": "5% OFF",
     "rating": 4.2,
@@ -259,7 +259,7 @@
   {
     "id": 24,
     "name": "Outdoor Bean Chair",
-    "image": "",
+    "image": "https://coshliving.com.au/cdn/shop/files/Bean_Bag.jpg?v=1702451561&width=1500",
     "price": 379,
     "discount": null,
     "rating": 4.1,
@@ -272,7 +272,7 @@
   {
     "id": 25,
     "name": "Outdoor Dining Set",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/81roI5QAZsL._UF1000,1000_QL80_.jpg",
     "price": 999,
     "discount": "20% OFF",
     "rating": 4.5,
@@ -283,7 +283,7 @@
   {
     "id": 26,
     "name": "Patio Dining Table",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/718csbfjpHL._UF894,1000_QL80_.jpg",
     "price": 799,
     "discount": null,
     "rating": 4.3,
@@ -294,7 +294,7 @@
   {
     "id": 27,
     "name": "6-Seater Outdoor Table",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/51c4FHks6BS.jpg",
     "price": 1199,
     "discount": "10% OFF",
     "rating": 4.7,
@@ -305,7 +305,7 @@
   {
     "id": 28,
     "name": "Foldable Garden Table",
-    "image": "",
+    "image": "https://static.tikamoon.com/product_photos/2099__HD_003/1200-1200-andria-solid-teak-folding-garden-table-seats-6.jpg",
     "price": 499,
     "discount": null,
     "rating": 4.2,
@@ -316,7 +316,7 @@
   {
     "id": 29,
     "name": "Teak Outdoor Set",
-    "image": "",
+    "image": "https://paradiseteak.com/wp-content/themes/paradise-teak/images/sliderindex.jpg",
     "price": 899,
     "discount": "5% OFF",
     "rating": 4.6,
@@ -327,7 +327,7 @@
   {
     "id": 30,
     "name": "Outdoor Bistro Table",
-    "image": "",
+    "image": "https://images-cdn.ubuy.com.sa/634d1956cd5ba75a1b6da37d-cobana-patio-bistro-table-set-3-piece.jpg",
     "price": 429,
     "discount": "8% OFF",
     "rating": 4.4,
@@ -340,7 +340,7 @@
   {
     "id": 31,
     "name": "Garden Lantern Set",
-    "image": "",
+    "image": "https://www.homesake.in/cdn/shop/files/IH0E085_theme.jpg?v=1747738117",
     "price": 149,
     "discount": "10% OFF",
     "rating": 4.5,
@@ -351,7 +351,7 @@
   {
     "id": 32,
     "name": "Outdoor Planters",
-    "image": "",
+    "image": "https://sereno.co.in/cdn/shop/collections/3.jpg?v=1637234170&width=2048",
     "price": 99,
     "discount": null,
     "rating": 4.4,
@@ -362,7 +362,7 @@
   {
     "id": 33,
     "name": "Wall Hanging Lights",
-    "image": "",
+    "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/lamp-shade/v/h/9/20-wooden-wall-light-wall-pendant-lamp-for-bedroom-living-room-original-imagwnhruhghnjgs.jpeg?q=90&crop=false",
     "price": 129,
     "discount": "5% OFF",
     "rating": 4.2,
@@ -373,7 +373,7 @@
   {
     "id": 34,
     "name": "Garden Fountain",
-    "image": "",
+    "image": "https://cdn.thestonestudio.in/wp-content/uploads/2023/11/Big-3-tier-water-fountain-for-terrace.jpg",
     "price": 349,
     "discount": "15% OFF",
     "rating": 4.6,
@@ -384,7 +384,7 @@
   {
     "id": 35,
     "name": "Wicker Basket Decor",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/81SxZ9+yoEL.jpg",
     "price": 89,
     "discount": null,
     "rating": 4.1,
@@ -395,7 +395,7 @@
   {
     "id": 36,
     "name": "Solar Garden Lights",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/81RJkZ8cT9L.jpg",
     "price": 159,
     "discount": "12% OFF",
     "rating": 4.3,
@@ -408,7 +408,7 @@
   {
     "id": 37,
     "name": "Round Wall Mirror",
-    "image": "",
+    "image": "https://altrove.in/cdn/shop/files/SolidWoodEarthyRoundWallMirror1.jpg?v=1722591906",
     "price": 299,
     "discount": "10% OFF",
     "rating": 4.4,
@@ -419,7 +419,7 @@
   {
     "id": 38,
     "name": "Vintage Frame Mirror",
-    "image": "",
+    "image": "https://i.etsystatic.com/9272694/r/il/ef1fe0/1146621789/il_1080xN.1146621789_mpmk.jpg",
     "price": 349,
     "discount": "5% OFF",
     "rating": 4.6,
@@ -430,7 +430,7 @@
   {
     "id": 39,
     "name": "Modern Full-Length Mirror",
-    "image": "",
+    "image": "https://media.wallmantra.store/product/original/wallmantra-minimalist-full-length-rectangular-mirror-regular-76cm-x-30cm-B751.jpg",
     "price": 499,
     "discount": null,
     "rating": 4.3,
@@ -441,7 +441,7 @@
   {
     "id": 40,
     "name": "Sunburst Wall Mirror",
-    "image": "",
+    "image": "https://www.shahisajawat.com/cdn/shop/files/Photo_1707991648913.jpg?v=1707992954",
     "price": 399,
     "discount": "8% OFF",
     "rating": 4.2,
@@ -452,7 +452,7 @@
   {
     "id": 41,
     "name": "Oval Decorative Mirror",
-    "image": "",
+    "image": "https://rukminim2.flixcart.com/image/750/900/ka8jdzk0/mirror/z/3/9/frameless-oval-decorative-wall-mirror-painting-mantra-original-imafrus38bp3hyqf.jpeg?q=90&crop=false",
     "price": 279,
     "discount": null,
     "rating": 4.1,
@@ -463,7 +463,7 @@
   {
     "id": 42,
     "name": "Rustic Frame Mirror",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/61QIIdawjML._UF894,1000_QL80_.jpg",
     "price": 329,
     "discount": "7% OFF",
     "rating": 4.5,
@@ -475,7 +475,7 @@
   {
     "id": 43,
     "name": "Wooden Shoe Rack",
-    "image": "",
+    "image": "https://ik.imagekit.io/2xkwa8s1i/img/npl_modified_images/npl_images_server/SOFA_WSSHRKCHIARA/SOFA_WSSHRKCHIARA_1.jpg?tr=w-3840",
     "price": 259,
     "discount": null,
     "rating": 4.3,
@@ -486,7 +486,7 @@
   {
     "id": 44,
     "name": "Multipurpose Cabinet",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/81Yt7B6wDfL.jpg",
     "price": 349,
     "discount": "10% OFF",
     "rating": 4.6,
@@ -497,7 +497,7 @@
   {
     "id": 45,
     "name": "Floating Wall Shelf",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/61Ypd5c2PPL.jpg",
     "price": 199,
     "discount": "15% OFF",
     "rating": 4.5,
@@ -508,7 +508,7 @@
   {
     "id": 46,
     "name": "Metal Storage Basket",
-    "image": "",
+    "image": "https://www.peelorange.com/cdn/shop/products/K3A5840_1024x.jpg?v=1719041698",
     "price": 139,
     "discount": null,
     "rating": 4.2,
@@ -519,7 +519,7 @@
   {
     "id": 47,
     "name": "Cube Organizer",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/810iWZ4uRrL.jpg",
     "price": 229,
     "discount": "12% OFF",
     "rating": 4.4,
@@ -530,7 +530,7 @@
   {
     "id": 48,
     "name": "Storage Ottoman",
-    "image": "",
+    "image": "https://media.wallmantra.store/product/other/wallmantra-blue-round-shaped-premium-quality-storage-ottoman-BB41-large.webp",
     "price": 299,
     "discount": "5% OFF",
     "rating": 4.3,
@@ -543,7 +543,7 @@
   {
     "id": 49,
     "name": "Scented Candle Set",
-    "image": "",
+    "image": "https://www.radliving.in/cdn/shop/products/DSC3536.jpg?v=1663956006",
     "price": 99,
     "discount": "10% OFF",
     "rating": 4.5,
@@ -554,7 +554,7 @@
   {
     "id": 50,
     "name": "Reed Diffuser",
-    "image": "",
+    "image": "https://valentte-live.s3.eu-west-2.amazonaws.com/wp-content/2024/09/08130445/Lemongrass-Rosemary-08-PIcture.jpg",
     "price": 129,
     "discount": null,
     "rating": 4.4,
@@ -565,7 +565,7 @@
   {
     "id": 51,
     "name": "Aroma Oil Burner",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/I/81ZBqtYfQmL.jpg",
     "price": 89,
     "discount": "5% OFF",
     "rating": 4.2,
@@ -576,7 +576,7 @@
   {
     "id": 52,
     "name": "Electric Diffuser",
-    "image": "",
+    "image": "https://assets.winni.in/product/primary/2022/3/58088.jpeg?dpr=1&w=1000",
     "price": 199,
     "discount": "15% OFF",
     "rating": 4.6,
@@ -587,7 +587,7 @@
   {
     "id": 53,
     "name": "Fragrance Beads Jar",
-    "image": "",
+    "image": "https://image.made-in-china.com/2f0j00rRuYkmCgaLps/340g-Fragrance-Crystal-Beads-Bottle-with-Light-JSD-M0031-.webp",
     "price": 79,
     "discount": null,
     "rating": 4.1,
@@ -598,7 +598,7 @@
   {
     "id": 54,
     "name": "Room Spray Duo",
-    "image": "",
+    "image": "https://ivyandwood.com.au/cdn/shop/files/Kakadu-plum-duo-pack-diffuser-roomspray-ivyandwood.jpg?v=1682572030",
     "price": 109,
     "discount": "8% OFF",
     "rating": 4.3,
@@ -611,7 +611,7 @@
   {
     "id": 55,
     "name": "Canvas Wall Art Set",
-    "image": "",
+    "image": "https://www.dekorcompany.com/cdn/shop/products/1_1b2ff133-484d-4f13-b0e4-dfbee44f5152.jpg?v=1655360500",
     "price": 499,
     "discount": "10% OFF",
     "rating": 4.6,
@@ -622,7 +622,7 @@
   {
     "id": 56,
     "name": "Framed Abstract Art",
-    "image": "",
+    "image": "https://media.wallmantra.store/product/original/wallmantra-vibrant-abstract-framed-wall-art-canvas-print-roll-F822.jpg",
     "price": 399,
     "discount": null,
     "rating": 4.4,
@@ -633,7 +633,7 @@
   {
     "id": 57,
     "name": "Modern Line Art Print",
-    "image": "",
+    "image": "https://img.freepik.com/premium-vector/minimalist-modern-line-art-print-abstract-mountain-contemporary-aesthetic-background-landscape_434853-2504.jpg",
     "price": 249,
     "discount": "5% OFF",
     "rating": 4.3,
@@ -644,7 +644,7 @@
   {
     "id": 58,
     "name": "Botanical Wall Frame",
-    "image": "",
+    "image": "https://images.bestofbharat.com/2021/05/640942274-1-1.jpg",
     "price": 299,
     "discount": "12% OFF",
     "rating": 4.5,
@@ -655,7 +655,7 @@
   {
     "id": 59,
     "name": "Minimalist Painting",
-    "image": "",
+    "image": "https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/126569/293575/8-min__91194.1709215678.jpg?c=2",
     "price": 379,
     "discount": null,
     "rating": 4.2,
@@ -666,7 +666,7 @@
   {
     "id": 60,
     "name": "Tribal Canvas Artwork",
-    "image": "",
+    "image": "https://gallerist.in/cdn/shop/products/jrbgQVSEXe.jpg?v=1692257015",
     "price": 349,
     "discount": "8% OFF",
     "rating": 4.4,
