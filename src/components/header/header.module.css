@@ -21,12 +21,13 @@
 }
 .headleft
 {
-    height: 60px;
+    height: 70px;
     border-bottom: 1px solid rgb(221, 216, 216);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
+    padding: 0% 4%;
+    column-gap: 5%;
     
 }
 .logo {
@@ -34,7 +35,7 @@
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
-  margin-right: 20px;
+  
 }
 
 .logo span {
@@ -50,7 +51,7 @@
 {
     height: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid rgb(221, 216, 216);
 }
@@ -61,7 +62,10 @@
 }
 .log:hover
 {
-    color: orange;
+    
+    background-color: #edeaea;
+    border-radius: 30px;
+    padding: 1.2vh 1vw;
 }
 .loginBtn
 {
@@ -118,10 +122,18 @@
 
 .search
 {
-    height: 25px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
     
 }
-
+.search :hover{
+  background-color: #edeaea;
+  border-radius: 50%;
+  
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -138,7 +150,8 @@ a {
   padding: 6px 12px;
   border-radius: 20px;
   border: 1px solid #ccc;
-  width: 150px;
+  width: 40vw;
+  height: 7vh;
   transition: width 0.3s ease;
   font-size: 14px;
 }
@@ -146,15 +159,18 @@ a {
 .searchInput:focus {
   outline: none;
   border-color: #007bff;
-  width: 200px;
+  width: 50vw;
 }
 
 .searchIcon {
   width: 18px;
   height: 18px;
-  margin-left: -28px;
+  margin-left: -48px;
+  margin-bottom: 8px;
   z-index: 1;
   cursor: pointer;
+  padding: 10px; /* add padding to show the background circle */
+  transition: background-color 0.2s ease;
 }
 
 .suggestionsList {
@@ -185,22 +201,35 @@ a {
 
 .suggestionsList li:hover {
   background-color: #f5f5f5;
-}.cartWrapper {
+}
+.cartWrapper {
   position: relative;
   cursor: pointer;
   display: inline-block;
+  
+}
+.cartIconWrapper{
+transition: all 0.3s ease;
+
+}
+
+.cartIconWrapper :hover{
+  border-radius: 50%;
+  background-color: #edeaea;
+  
 }
 
 .cartIcon {
   width: 24px;
   height: 24px;
+  padding: 8px 10px;
 }
 
 /* Item count badge */
 .cartCount {
   position: absolute;
-  top: -6px;
-  right: -10px;
+  top: -2px;
+  right: -4px;
   background-color: red;
   color: white;
   font-size: 11px;
@@ -279,3 +308,147 @@ a {
   color: #777;
 }
 
+.wishWrapper {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.wishIconWrapper{
+transition: all 0.3s ease;
+
+}
+
+.wishIconWrapper :hover{
+  border-radius: 50%;
+  background-color: #edeaea;
+  
+}
+
+.wishIcon {
+  width: 28px;
+  height: 28px;
+  padding: 8px 10px;
+}
+
+.wishCount {
+  position: absolute;
+  top: 0px;
+  right: -2px;
+  background-color: red;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  line-height: 1;
+}
+
+/* Dropdown */
+.wishDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 240px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  pointer-events: auto;
+}
+
+.wishItems {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.wishItems li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+
+
+.wishTotal {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.wishButton {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.wishButton:hover {
+  background-color: #555;
+}
+
+.emptyWish {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Mobile Dropdown */
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  right: 16px;
+  background: #fefff5;
+  color: #000;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.mobileMenu a {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.mobileMenu a:hover {
+  color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+  .headleft{
+    padding: 0%;
+    
+    justify-content: space-evenly;
+  }
+  .menuButton {
+    display: block;
+  }
+  .log, .cartWrapper, .wishWrapper{
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .log, .cartWrapper, .wishWrapper{
+    display: block;
+  }
+  .menuButton {
+    display: none;
+  }
+}
