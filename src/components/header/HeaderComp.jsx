@@ -6,11 +6,14 @@ import wish from '../../assets/wishlist.svg';
 import { Link } from 'react-router-dom';
 import LoginModal from '../auth/LoginModal';
 import { FaUser, FaHeart, FaShoppingCart, FaBars, FaTimes } from 'react-icons/fa';
+import furnitureData from '../../data/furnitureData.json';
 
 const Header = () => {
   const [query, setQuery] = useState('');
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [hoveredDropdown, setHoveredDropdown] = useState(null);
+
   const [showWishDropdown,setShowWishDropdown] = useState(false);
    const [wishItems, setWishItems] = useState([
     { id: 1, name: 'Sofa', price: 499, qty: 1 },
@@ -193,15 +196,46 @@ const Header = () => {
           { title: 'Outdoor', items: ['Outdoor lounge', 'Outdoor dining', 'Outdoor decor'] },
           { title: 'Decor', items: ['Mirrors', 'Storages', 'Home Fragrance', 'Art'] }
         ].map((menu, i) => (
-          <div className={styles.dropdownContainer} key={i}>
+          <div className={styles.dropdownContainer} 
+            key={i}
+            onMouseEnter={() => setHoveredDropdown(i)}
+            onMouseLeave={() => setHoveredDropdown(null)}
+            >
+
             <span className={styles.tag}>{menu.title}</span>
+            {hoveredDropdown === i && (
             <div className={styles.dropdownMenu}>
-              <ul>
+              <div className={styles.dropdown}>
+                <ul>
                 {menu.items.map((item, j) => (
-                  <li key={j}><Link to={`/subcategory/${encodeURIComponent(item)}`}>{item}</Link></li>
+                  <li key={j}>
+                    <Link to={`/subcategory/${encodeURIComponent(item)}`}
+                      onClick={() => setHoveredDropdown(null)}>{item}</Link>
+                  </li>
                 ))}
               </ul>
+
+              </div>
+              
+              {/* Product Image Row */}
+              <div className={styles.imageRow}>
+                {Object.values(
+                  furnitureData.reduce((acc, product) => {
+                    if (!acc[product.subcategory] && product.category === menu.title) {
+                      acc[product.subcategory] = product; // Take first product per subcategory
+                    }
+                    return acc;
+                  }, {})
+                ).map(product => (
+                  <div key={product.id} className={styles.imageCard}>
+                    <img src={product.image} alt={product.name} />
+                    <p>{product.name}</p>
+                  </div>
+                ))}
+              </div>
+
             </div>
+            )}
           </div>
         ))}
       </nav>
